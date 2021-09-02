@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS practice</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            <h2 class="h2">Single Click to change the text</h2>
+            <button type="button" class="btn btn-primary" onclick="onClickChange()">Click here</button>
+            <h3 id="h3_1">Lorem ipsum dolor sit amet.</h3>
+        </div>
+
+        <div class="box">
+            <h2 class="h2">Double Click to change the text</h2>
+            <button type="button" class="btn btn-primary" ondblclick="dblClickChange()">Double click here</button>
+            <h3 id="h3_2">Lorem ipsum dolor sit amet.</h3>
+
+        </div>
+
+        <div class="box">
+            <h2 class="h2">Hover to change the text</h2>
+            <button type="button" class="btn btn-primary" onmouseover="hoverChange()">Hover here</button>
+            <h3 id="h3_3">Lorem ipsum dolor sit amet.</h3>
+        </div>
+        <div class="box">
+            <h2 class="h2">Move mouse out to change the text</h2>
+            <button type="button" class="btn btn-primary" onmouseout="mouseOutChange()">Hover here</button>
+            <h3 id="h3_4">Lorem ipsum dolor sit amet.</h3>
+        </div>
+        <div class="box">
+            <h2 class="h2">Single Click to change the text color</h2>
+            <button type="button" class="btn btn-primary" onclick="onClickColorChange()">Click here</button>
+            <h3 id="h3_5">Lorem ipsum dolor sit amet.</h3>
+        </div>
+        <div class="box">
+            <h2 class="h2">Single Click to change the text style</h2>
+            <button type="button" class="btn btn-primary" onclick="onClickStyleChange()">Click here</button>
+            <h3 id="h3_6">Lorem ipsum dolor sit amet.</h3>
+        </div>
+
+    </div>
+
+</body>
+
+<script src="js/script.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/popper.min.js"></script>
+
+</html>
